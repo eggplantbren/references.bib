@@ -328,20 +328,20 @@ archivePrefix = "arXiv",
   publisher={Oxford University Press}
 }
 
-@ARTICLE{dnest4,
-   author = {{Brewer}, B.~J. and {Foreman-Mackey}, D.},
-    title = "{DNest4: Diffusive Nested Sampling in C++ and Python}",
-  journal = {Journal of Statistical Software, accepted. arxiv: 1606.03757},
-archivePrefix = "arXiv",
-   eprint = {1606.03757},
- primaryClass = "stat.CO",
- keywords = {Statistics - Computation, Astrophysics - Instrumentation and Methods for Astrophysics, Physics - Data Analysis, Statistics and Probability},
-     year = 2016,
-    month = jun,
-   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160603757B},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{dnest4,
+   author = {Brendon Brewer and Daniel Foreman-Mackey},
+   title = {DNest4: Diffusive Nested Sampling in C++ and Python},
+   journal = {Journal of Statistical Software, Articles},
+   volume = {86},
+   number = {7},
+   year = {2018},
+   keywords = {Bayesian inference; Markov chain Monte Carlo; Metropolis algorithm; bayesian computation; nested sampling; C++11; Python},
+   abstract = {In probabilistic (Bayesian) inferences, we typically want to compute properties of the posterior distribution, describing knowledge of unknown quantities in the context of a particular dataset and the assumed prior information. The marginal likelihood, also known as the \"evidence\", is a key quantity in Bayesian model selection. The diffusive nested sampling algorithm, a variant of nested sampling, is a powerful tool for generating posterior samples and estimating marginal likelihoods. It is effective at solving complex problems including many where the posterior distribution is multimodal or has strong dependencies between variables. DNest4 is an open source (MIT licensed), multi-threaded implementation of this algorithm in C++11, along with associated utilities including: (i) 'RJObject', a class template for finite mixture models; and (ii) a Python package allowing basic use without C++ coding. In this paper we demonstrate DNest4 usage through examples including simple Bayesian data analysis, finite mixture models, and approximate Bayesian computation.},
+   issn = {1548-7660},
+   pages = {1--33},
+   doi = {10.18637/jss.v086.i07},
+   url = {https://www.jstatsoft.org/v086/i07}
 }
-
 @article{dns,
   title={Diffusive nested sampling},
   author={Brewer, Brendon J and Pártay, Lívia B and Csányi, Gábor},
